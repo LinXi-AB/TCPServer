@@ -1,6 +1,7 @@
 #include <stdio.h>  
 #include <winsock2.h>  
 #include <ws2tcpip.h>  // for inet_ntop
+
 #pragma comment(lib, "ws2_32.lib")  
 
 int main(int argc, char* argv[])
